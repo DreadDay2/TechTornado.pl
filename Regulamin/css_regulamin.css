@@ -1,0 +1,115 @@
+:root{
+    --dark: #1f1f11;
+    --light: #00ffaa;
+    --white: white;
+}
+
+body{
+    display: flex;
+    background: var(--light);
+
+}
+
+html{
+    font-family: "Poppins";
+}
+
+.main_content{
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.75);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+    color: var(--white);
+    display: block;
+    position: relative;
+}
+
+.tresc{
+    margin-left: 1%;
+    margin-right: 0 auto;
+    width: 98%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.75);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+    position: relative;
+    display: block;
+    outline-style: solid;
+    color: var(--white);
+}
+
+.p_tresc{
+    margin-left: 2%;
+    margin-right: 0 auto;
+}
+
+.stopka{
+    position: relative;
+    display: block;
+    margin-left: 1%;
+    margin-right: 0 auto;
+    width: 96.5%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.75);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+    outline-style: solid;
+    color: var(--white);
+    padding: 10px;
+    text-align: center;
+}
+
+h3{
+    margin-left: 2%;
+    margin-right: 0 auto;
+}
+
+
+ul{
+    width: 96.5%;
+    list-style-type: none;
+    margin-left: 1%;
+    margin-right: auto;
+    padding: 10px;
+    overflow: hidden;
+    background-color: var(--light);
+    border-radius: 20px;
+    outline-style: solid;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    margin: 0 25px;
+}
+
+ul :hover{
+    color: var(--white);
+}
+
+img{
+    box-shadow: black 0.1em 0.1em 0.2em;
+    border-radius: 20px;
+}
